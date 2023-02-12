@@ -24,9 +24,9 @@ function selectionSort(arr) {
  }
  return  arr
 }
-// console.log(selectionSort([3,1,3,2,6,4]));
 
 // 插入排序
+
 // 归并排序
 
 // 快速排序
