@@ -52,3 +52,6 @@ var longestPalindrome = function(s) {
 }
 
 console.log(longestPalindrome('babad'), 'bab');
+
+// 动态规划方案
+
