@@ -34,6 +34,7 @@ var levelOrder = function (root) {
 
 // 使用迭代
 var levelOrder = function (root) {
+    if(!root) return;
  let result = [];
  let stack = [{level: 0, node: root}];
  // 首先 需要一个字段来标识在每一次遍历时的层级。层级与result的index+1对应
