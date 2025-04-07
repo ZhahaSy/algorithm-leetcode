@@ -82,6 +82,8 @@ function partition (arr, startIndex, endIndex) {
 function quickSort(arr, startIndex, endIndex) {
     if (startIndex < endIndex) {
         let partitionIndex = partition(arr, startIndex, endIndex);
+        console.log(partitionIndex);
+        
         quickSort(arr, startIndex, partitionIndex - 1)
         quickSort(arr, partitionIndex + 1, endIndex)
     }
